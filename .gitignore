@@ -1,6 +1,7 @@
 ﻿MvcMovie/App_Data/ASPNETDB.MDF
 MvcMovie/App_Data/Movies.MDF
 MvcMovie/App_Data/Movies.ldf
+MvcMovie/App_Data/Movies_log.ldf
 MvcMovie/bin/
 MvcMovie/obj/
 packages/
