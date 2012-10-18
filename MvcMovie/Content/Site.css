@@ -243,13 +243,18 @@ table th {
 
 nav, 
 #menucontainer {
-    margin-top: 40px;
+    /*margin-top: 40px;*/
+    position:absolute;
+    top: 33px;
+    right: 0px;
 }
 
 div#title {
     display: block;
-    float: left;
+    /*float: left;*/
     text-align: left;
+    position:absolute
+    top 0px;
 }
 
 #logindisplay {
