@@ -329,7 +329,15 @@ div#title {
 }
 
 .SortableList {
-    list-style: none
+    list-style: none;
+}
+
+.DraggableList {
+    list-style: none;
+}
+
+.DraggableListItem {
+    margin: 10px;    
 }
 
 #MoviesListContainer {

@@ -6,3 +6,7 @@ $(function () {
   $(".SortableList").sortable();
   $(".SortableList").disableSelection();
 });
+
+$(function () {
+  $(".DraggableListItem").draggable();
+});

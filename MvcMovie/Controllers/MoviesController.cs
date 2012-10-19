@@ -108,9 +108,17 @@ public ActionResult SearchIndex(string Genre, string searchString)
         }
 
         //
-        // GET: /List/
+        // GET: /Movies/SortableList/
 
-        public ActionResult List()
+        public ActionResult SortableList()
+        {
+            return View(db.Movies.ToList());
+        }
+
+        //
+        // GET: /Movies/DraggableList/
+
+        public ActionResult DraggableList()
         {
             return View(db.Movies.ToList());
         }
