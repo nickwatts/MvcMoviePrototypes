@@ -108,6 +108,14 @@ public ActionResult SearchIndex(string Genre, string searchString)
         }
 
         //
+        // GET: /List/
+
+        public ActionResult List()
+        {
+            return View(db.Movies.ToList());
+        }
+
+        //
         // GET: /Movies/Details/5
 
         public ActionResult Details(int id = 0)

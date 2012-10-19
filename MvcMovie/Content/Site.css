@@ -327,3 +327,23 @@ div#title {
 .tri-state {
     width: 6em;
 }
+
+.SortableList {
+    list-style: none
+}
+
+#MoviesListContainer {
+    width: 500px;
+}
+
+.ui-icon {
+  display: inline-block;
+}
+
+.ui-icon-arrowthick-2-n-s {
+    display: inline-block;
+}
+
+#SortableIcon {
+  display: inline-block
+}
