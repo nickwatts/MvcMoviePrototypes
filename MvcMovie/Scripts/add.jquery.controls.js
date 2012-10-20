@@ -8,5 +8,5 @@ $(function () {
 });
 
 $(function () {
-  $(".DraggableListItem").draggable();
+  $(".DraggableListItem").draggable({ containment: "#MoviesListContainer", scroll: false });
 });

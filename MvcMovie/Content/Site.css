@@ -341,7 +341,19 @@ div#title {
 }
 
 #MoviesListContainer {
-    width: 500px;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+}
+
+#MoviesListContainer .DraggableListItem
+{
+  width: 200px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .ui-icon {
