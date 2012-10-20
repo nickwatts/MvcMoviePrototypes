@@ -123,6 +123,13 @@ public ActionResult SearchIndex(string Genre, string searchString)
             return View(db.Movies.ToList());
         }
 
+        // GET: /Movies/NoticeBoard/
+
+        public ActionResult NoticeBoard()
+        {
+          return View(db.Movies.ToList());
+        }
+
         //
         // GET: /Movies/Details/5
 

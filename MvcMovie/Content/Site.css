@@ -370,3 +370,27 @@ div#title {
 #MoviesListContainer .SortableList li  {
   width: 75%;
 }
+
+.NoticeBoardColumn
+{
+  width: 200px;
+}
+
+#NoticeBoardColumn1
+{
+  position:absolute;
+  top: 174px;
+  left:100px;
+}
+
+#NoticeBoardColumn2
+{
+  position:absolute;
+  top: 174px;
+  left: 350px;
+}
+
+#NoticeBoardColumn3
+{
+  margin-left: 504px;
+}
