@@ -348,8 +348,7 @@ div#title {
     -moz-border-radius: 5px 5px 5px 5px;
 }
 
-#MoviesListContainer .DraggableListItem
-{
+#MoviesListContainer .DraggableListItem {
   width: 200px;
   line-height: 50px;
   text-align: center;
@@ -366,4 +365,8 @@ div#title {
 
 #SortableIcon {
   display: inline-block
+}
+
+#MoviesListContainer .SortableList li  {
+  width: 75%;
 }
